@@ -54,6 +54,14 @@ export default async function inspect(hash: string | undefined, opts: Options) {
     return;
   }
 
+  if (opts.list) {
+    console.log();
+    Object.keys(cacheDetails).forEach((hash) => {
+      console.log(hash)
+    });
+    return
+  }
+
   if (hash) {
     const item = cacheDetails[hash];
 
