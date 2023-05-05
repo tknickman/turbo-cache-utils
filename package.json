@@ -1,6 +1,6 @@
 {
   "name": "turbo-cache-utils",
-  "version": "0.0.0.alpha.0",
+  "version": "0.0.0-alpha.0",
   "description": "Collection of tiny turbo utilities for inspecting and manipulating the turbo cache.",
   "bin": {
     "turbo-cache-utils": "dist/cli.js"
