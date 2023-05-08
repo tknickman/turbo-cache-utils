@@ -1,9 +1,16 @@
 {
   "name": "turbo-cache-utils",
-  "version": "0.0.0-alpha.0",
-  "description": "Collection of tiny turbo utilities for inspecting and manipulating the turbo cache.",
+  "version": "0.0.1-alpha.0",
+  "description": "Collection of tiny turbo utilities for inspecting, debugging, and manipulating the turbo cache.",
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/tknickman/turbo-cache-utils"
+  },
   "bin": {
     "turbo-cache-utils": "dist/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/tknickman/turbo-cache-utils/issues"
   },
   "scripts": {
     "build": "tsup",
