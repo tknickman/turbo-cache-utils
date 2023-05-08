@@ -1,6 +1,6 @@
 {
   "name": "turbo-cache-utils",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1",
   "description": "Collection of tiny turbo utilities for inspecting, debugging, and manipulating the turbo cache.",
   "respository": {
     "type": "git",
